@@ -5,6 +5,25 @@
 1. background-color #490442
 2. text-area 211*25
 
+# git 
+1. git config --global core.editor "vim"
+
+
+
+# snap
+1. sudo apt install snap snapd -y
+
+# vim neovim
+1. sudo apt install vim neovim -y
+
+# mysql
+1. sudo apt install mysql-server -y
+2. sudo systemctl start mysql.service
+3. sudo mysql
+4. ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '????????';
+5. ALTER USER 'root'@'localhost' IDENTIFIED WITH auth_socket;
+6. mysql -u root -p
+
 # postgresql
 1. sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list'
 2. wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
