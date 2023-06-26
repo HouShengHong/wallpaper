@@ -1,6 +1,10 @@
 # wallpaper
 ### wallpaper
 
+# Terminal
+1. background-color #490442
+2. text-area 211*25
+
 # postgresql
 1. sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list'
 2. wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
